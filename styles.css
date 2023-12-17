@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#hero-sub-text, .header-links li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#hero-button {
+    width: 75px;
+    margin-bottom: 10%;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information-images button {
+    color: #3882f6;
+}
+
+.information-images p {
+    color: #1f2937;
+    max-width: 300px;
+}
+
+.information-bottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+#quotation {
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 500px;
+    margin-bottom: -25px;
+    align-self: center;
+}
+
+#quoter {
+    text-align: right;
+    max-width: 1200px;
+}
+
+.cta-inner {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    border-color: #f9faf8;
+    border-radius: 15px;
+    margin: 10px 200px;
+    flex-shrink: 0;
+}
+
+#cta-main-text {
+    color: #f9faf8;
+}
+
+#cta-sub-text {
+    color: #f9faf8;
+    font-size: 14px;
+}
+
+#cta-inner-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    padding: 10px;
+    align-self: center;
+    border-radius: 20%;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+}
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

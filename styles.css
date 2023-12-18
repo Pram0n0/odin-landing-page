@@ -101,15 +101,14 @@
     max-width: 1200px;
 }
 
-.cta-inner {
+.cta {
     background-color: #3882f6;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 75px;
     border-color: #f9faf8;
     border-radius: 15px;
     margin: 10px 200px;
-    flex-shrink: 0;
 }
 
 #cta-main-text {
@@ -128,12 +127,13 @@
     padding: 10px;
     align-self: center;
     border-radius: 20%;
+    margin: 10px;
 }
 
 .cta-left {
     display: flex;
     flex-direction: column;
-    flex: none;
+    margin: 0px 10px;
 }
 
 .footer {
